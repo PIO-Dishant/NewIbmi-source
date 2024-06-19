@@ -8,7 +8,9 @@
         Dcl-s ResponsePos Packed(4);
         Dcl-s ReturnedSQLCode char(5);
         Dcl-s header Char(200);
+        Dcl-s PopC   Char(20);
 
+        
         Dcl-c Url const('https://gorest.co.in/public-api/users');
 
         Dcl-pr system zoned(10:0) extproc('system');
