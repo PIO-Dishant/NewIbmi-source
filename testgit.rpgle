@@ -9,6 +9,7 @@
         Dcl-s ReturnedSQLCode char(5);
         Dcl-s header Char(200);
         Dcl-s PopC   Char(20);
+        dcl-s PopD char(50) ;
 
         
         Dcl-c Url const('https://gorest.co.in/public-api/users');
