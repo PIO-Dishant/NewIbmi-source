@@ -10,6 +10,9 @@
         Dcl-s header Char(200);
         Dcl-s PopC   Char(20);
         dcl-s PopD char(50) ;
+        dcl-s ExetP char(1) ;
+        Dcl-S NextP Packed(5);
+        
 
         
         Dcl-c Url const('https://gorest.co.in/public-api/users');
